@@ -1,0 +1,20 @@
+{
+  "name": "accenture-challenge-qa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cypress open",
+    "test": "cypress run"
+  },
+  "keywords": [],
+  "author": "Lucas Rangel",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^23.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.5",
+    "@faker-js/faker": "^9.9.0",
+    "cypress": "^15.1.0"
+  }
+}
